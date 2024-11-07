@@ -1,7 +1,7 @@
 # SSID (The code is coming)
 # You Only Need Clear Images: Self-supervised Single Image Dehazing
 
-* The architecture of the image dehazing model.
+* The architecture of the image dehazing network.
 <img src=https://github.com/CVhnu/SSID/blob/main/images/image_dehazing_network_paras.png >
 
 * The generated pseudo labels (synthetic hazy images) by SSID.
