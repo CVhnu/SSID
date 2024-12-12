@@ -1,5 +1,6 @@
 # SSID (Code is available)
-This is the official PyTorch code for the paper.  【You Only Need Clear Images: Self-supervised Single Image Dehazing】
+This is the official PyTorch code for the paper.  
+【You Only Need Clear Images: Self-supervised Single Image Dehazing】
 
 # Dependencies and Installation
 Ubuntu >= 18.04  
