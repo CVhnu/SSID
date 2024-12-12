@@ -15,13 +15,33 @@ cd SSID
 conda create -n SSID python=3.8  
 conda activate SSID  
 
+# Get Started
+1. The pretrained checkpoints in the Code/pretrained/SSID.pt.
+2. Preparing data for training
 
+# Quick test
+Run demos to process the images in dir ./examples/input/ by following commands:  
+python test.py  --dataroot  ./examples/input/ --output ./examples/output
 
-* The architecture of the image dehazing network.
+# Train SSID
+Step 1: collect clear images in the ./examples/input  
+Step 2: Train our SSID
+
+# The architecture of the image dehazing network.
 <img src=https://github.com/CVhnu/SSID/blob/main/images/image_dehazing_network_paras.png >
 
-* The generated pseudo labels (synthetic hazy images) by SSID.
+# The generated pseudo labels (synthetic hazy images) by SSID.
  <img src=https://github.com/CVhnu/SSID/blob/main/images/pseudo%20labels.png >
+ 
+<!-- * Comparison with the SOTA unsupervised image dehazing methods.
+ <img src=https://github.com/CVhnu/SSID/blob/main/images/dehazed%20results.png > -->
+ 
+# Citation
+If you find our repo useful for your research, please cite us:
 
-* Comparison with the SOTA unsupervised image dehazing methods.
- <img src=https://github.com/CVhnu/SSID/blob/main/images/dehazed%20results.png >
+# License
+Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only. Any commercial use should get formal permission first.
+
+# Acknowledgement
+
+This repository is maintained by [Jiyou Chen](https://scholar.google.com.hk/citations?user=BjgoH4cAAAAJ&hl=zh-CN&oi=ao).
