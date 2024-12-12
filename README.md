@@ -1,4 +1,4 @@
-# SSID (The code is coming)
+# SSID (Code is avaliable)
 # You Only Need Clear Images: Self-supervised Single Image Dehazing
 
 * The architecture of the image dehazing network.
